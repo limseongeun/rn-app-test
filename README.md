@@ -10,7 +10,9 @@ Expo-Cli를 이용한 리액트 네이티브에 대한 사용방법을 정리한
   * git
   * virtual device/builder - Xcode, Android Studio
   
-2. 화면 컴포넌트 구성
+2. [앱 화면 구성](guide/2.앱-화면-구성.md)
+  * 초기 App.js 구성에 따른 각 용도
+  * 컴포넌트(Component) 사용
 
 3. API에 따른 JSX 코딩
 
