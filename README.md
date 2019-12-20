@@ -2,7 +2,7 @@
 Expo-Cli를 이용한 리액트 네이티브에 대한 사용방법을 정리한 내용
 
 ## 목차
-1. [환경 셋팅](guide/1.환경 셋팅.md)
+1. [환경 셋팅](guide/1.환경-셋팅.md)
   * node.js
   * npm(yarn)
   * expo-cli(or react-native-cli)
