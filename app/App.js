@@ -6,6 +6,8 @@ import { Asset } from "expo-asset";
 import * as Font from "expo-font";
 import { Ionicons } from "@expo/vector-icons";
 
+import AppNavigator from "./navigation/AppNavigator";
+
 export default function App(props) {
   const [isLoadingComplete, setLoadingComplete] = useState(false);
 
@@ -30,9 +32,8 @@ export default function App(props) {
           />
         </View>
 
-        <View style={styles.contentContainer}>
-          <Text>리액트 네이티브 Expo 테스트 해보기!!</Text>
-        </View>
+        <AppNavigator />
+
       </View>
     );
   }
@@ -72,11 +73,5 @@ const styles = StyleSheet.create({
   loginStatusBar: {
     backgroundColor: "#2842aa",
     height: Platform.OS === "ios" ? 20 : StatusBar.currentHeight
-  },
-  contentContainer: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center'
   }
 });
